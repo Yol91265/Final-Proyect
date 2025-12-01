@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif; 
+}
+
+
+/* Helpers */
+.spacer60 {
+    height: 60px;
+    width: 100%
+}
+
+.spacerbutton {
+    height: 100%;
+    width: 20px;
+}
+
+.spacerbutton2 {
+    height: 100%;
+    width: 14px;
+}

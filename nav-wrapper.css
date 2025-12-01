@@ -1,0 +1,132 @@
+.navigation-wrapper {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    
+    
+}
+/* LEFT COLUMN STYLES*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+/* CENTER COLUMN STYLES*/
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 600px; 
+    padding: 0px 0px 0px 80px; 
+    row-gap: 2px;
+
+      
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+
+}
+
+.navigation-wrapper > .center-column > .Explore {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 231, 123);
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .center-column > .navigation-links > .nav-links a {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    height: 30px;
+    padding-right: 20px;
+    
+}
+
+
+.navigation-wrapper > .center-column > .navigation-links > .nav-links-especial {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 18px;
+
+}
+
+.navigation-wrapper > .center-column > .navigation-links > .nav-links-especial a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Inter", sans-serif;
+    color: rgb(167, 164, 160);
+    font-weight: 600;
+    opacity: 0.85;
+
+}
+
+.navigation-wrapper > .center-column > .navigation-links > .nav-links-especial i {
+    font-size: 0.7em;
+    color: rgb(237, 237, 237);
+    opacity: 0.85;
+    padding-left: 17px;
+
+}
+
+/* RIGHT COLUMN */
+
+.navigation-wrapper > .right-column{
+    display:flex;
+    width: 1000px;
+    justify-content: flex-end;
+}
+
+.navigation-wrapper > .right-column > .actions {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: flex-end;
+ 
+}
+
+.navigation-wrapper > .right-column > .actions > .action-button >.btn {
+    background-color: rgb(54, 56, 63);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(54, 56, 63);
+    border-radius: 4px;
+    outline: none;
+    height: 55px;
+    
+ 
+}
+
+.navigation-wrapper > .right-column > .actions > .action-button i {
+    font-size: 1.2em;
+    color: rgb(75, 206, 121);
+    opacity: 0.85;
+    padding-left: 7px;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .actions > .lupa i {
+    font-size: 2em;
+    color:rgb(167, 164, 160);
+    padding: 25px;
+    opacity: 0.85;
+
+}
+
+
+
+
